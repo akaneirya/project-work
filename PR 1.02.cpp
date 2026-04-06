@@ -15,6 +15,10 @@ int main()
 	
 	printf("enter the value of TA");
 	scanf("%d",&TA);
+
+	HRA = (HRApercent / )* basrsalary;
+	DA = (DApercent / )* basrsalary;
+	TA = (TApercent / )* bsaesalary;
 	
 	printf("enter the value of gross salary");
 	scanf("%d",&gross_salary);
