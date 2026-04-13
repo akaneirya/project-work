@@ -16,21 +16,19 @@ int main()
 	printf("enter the value of TA");
 	scanf("%d",&TA);
 
-	HRA = (HRApercent / )* basrsalary;
-	DA = (DApercent / )* basrsalary;
-	TA = (TApercent / )* bsaesalary;
 	
-	printf("enter the value of gross salary");
-	scanf("%d",&gross_salary);
+	gross_salary = base_salary + HRA + DA + TA;
+	
+	printf("gross_salary = %d\n", gross_salary);
 	
 }
 
-  /*
-  
-  output
-  
-   1)enter the value of base salary100
-   2)enter the value of HRA10
-   3)enter the value of DA5
-   4)enter the value of TA8
-   5)enter the value of gross salary123
+/*
+output
+1)enter the value of base salary100
+2)enter the value of HRA10
+3)enter the value of DA5
+4)enter the value of TA8
+5)gross_salary = 123
+
+/*
