@@ -38,8 +38,17 @@ int main()
 }else{
 		printf("Please try again next exam.");
     }
-return 0;
-}       
- /*
-output :- enter your score (0-100):99
-*/
+
+}
+
+/*
+output
+1)enter your score: 92
+ your is grade A
+excellent workYou are eligible for next level.
+
+2)enter your score:85
+your is grade B
+Best performance you are eligible for next level.
+/*
+ 
