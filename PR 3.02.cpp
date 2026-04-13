@@ -11,3 +11,7 @@ count++;
 printf("%d", count);
 
 }
+/*
+output
+a total number of digit is 3
+  /*
