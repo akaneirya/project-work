@@ -9,3 +9,7 @@ int main()
  } while (ch<='z');
  
 }
+/*
+output
+1) a e i m q u y
+/*
