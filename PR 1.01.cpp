@@ -3,16 +3,20 @@
 int main()
 {
 	float celcius, fahrenheit;
-    printf("enter value of celcius");
-	scanf("%d",&celcius);
 	
-	fahrenheit + ('9.0 / 5.0*celcius') + 32;
-	printf("fahrenheit = %d|n",fahrenheit); 
+    printf("enter value of celcius");
+	scanf("%f",&celcius);
+	
+	fahrenheit = (9.0/5.0 * celcius) + 32;
+	
+	printf("fahrenheit = %f/n", fahrenheit); 
 }
 
-   /*
-   
-   output:
-   enter the value of celcius: 0
-   fahrenheit: 32
-   */
+/*
+
+output
+
+1)enter value of celcius38
+fahrenheit = 100.400002/n
+
+/*
