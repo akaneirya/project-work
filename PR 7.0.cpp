@@ -1,27 +1,27 @@
 #include<stdio.h>
 
-int add(int x, int y){
-  return x + y;
+int add(int e, int f){
+  return e + f;
 }
 
-int sub(int x, int y){
-  return x - y;
+int sub(int e, int f){
+  return e - f;
 }
 
-int mul(int x, int y){
-  return x * y;
+int mul(int e, int f){
+  return e * f;
 }
 
-int divi(int x, int y){
-  return x / y;
+int divi(int e, int f){
+  return e / f;
 }
 
-int mod(int x, int y){
-  return x % y;
+int mod(int e, int f){
+  return e % f;
 }
 
 int main() {
-int choice, x, y;
+int choice, e, f;
 
 for(;;) {
     
@@ -41,35 +41,35 @@ break;
 }
 
 printf("enter your first number: ");
-scanf("%d", &x);
+scanf("%d", &e);
 
 printf("enter your second number: ");
-scanf("%d", &y);
+scanf("%d", &f);
 
 switch(choice) {
 
 case 1:
-printf("addtion of %d and %d is %d\n", x, y, add(x,y));
+printf("addtion of %d and %d is %d\n", e, f, add(e,f));
 break;
 
 case 2:
-printf("subtraction of %d and %d is %d\n", x, y, sub(x,y));
+printf("subtraction of %d and %d is %d\n", e, f, sub(e,f));
 break;
 
 case 3:
-printf("multiplcation of %d and %d is %d\n", x, y, mul(x,y));
+printf("multiplcation of %d and %d is %d\n", e, f, mul(e,f));
 break;
 
 case 4:
-if(y != 0)
-printf("division of %d and %d is %d\n", x, y, divi(x,y));
+if(f != 0)
+printf("division of %d and %d is %d\n", e, f, divi(e,f));
 else
 printf("wrong : division by zero!\n");
 break;
 
 case 5:
-if(y != 0)
-printf("addtion of %d and %d is %d\n", x, y, add(x,y));
+if(f != 0)
+printf("addtion of %d and %d is %d\n", e, f, add(e,f));
 else
 printf("wrong : modulus by zero!\n");
 break;
